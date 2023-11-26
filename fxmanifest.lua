@@ -1,14 +1,18 @@
 fx_version 'adamant'
 game 'gta5'
 lua54 'yes'
+author 'JustTheMartin'
 
-client_scripts {
+shared_scripts {
     '@es_extended/imports.lua',
-    '@basicscripts/vse/blips.lua',
-    'config.lua',
-    'main.lua'
+    'config.lua'
 }
 
-escrow_ignore {
-    'config.lua'
+client_scripts {
+    '@ox_lib/init.lua',
+    'client/*.lua'
+}
+
+server_scripts {
+    'server/*.lua'
 }
