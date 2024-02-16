@@ -10,5 +10,6 @@ RegisterNetEvent('jtm_carwash:pay', function()
         -- Ban Event
         return
     end
-    exports.ox_inventory:RemoveItem(_source, 'money', Config.Price)
+    local xPlayer = ESX.GetPlayerFromId(_source)
+    xPlayer.removeMoney(Config.Price)
 end)
