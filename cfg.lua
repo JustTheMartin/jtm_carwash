@@ -1,9 +1,9 @@
 Config = {}
 
-Config.Notify = "ox" -- esx/ox/okok/other
-Config.HelpText = "ox" -- esx/ox/okok/other
+Config.Notify = "esx" -- esx/ox/okok/other
+Config.HelpText = "esx" -- esx/ox/okok/other
 Config.ProgressBar = "ox" -- ox/other
-Config.Interaction = "target" -- E/target
+Config.Interaction = "E" -- E/target
 
 Config.Font = false -- You own font/false
 Config.Duration = 10000
