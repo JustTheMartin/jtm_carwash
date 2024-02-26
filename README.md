@@ -14,7 +14,7 @@
 
 ### Installation
 ```
-# 1. Install fivem_anims
+# 1. Install jtm_carwash
 # 2. Drag it into your resources
-# 3. Add "start fivem_anims" to your server.cfg
+# 3. Add "ensure jtm_carwash" to your server.cfg
 ```
