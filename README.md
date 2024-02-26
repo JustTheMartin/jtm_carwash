@@ -6,6 +6,7 @@
 
 ### Dependencies
 - es_extended
+- ox_inventory
 - ox_lib (optional)
 - ox_target (optional)
 - okokNotify (optional)
